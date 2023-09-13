@@ -2,6 +2,10 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
+@app.route('/', methods=["GET"])
+def test():
+    return "Hello World"
+
 @app.route('/', methods=["POST"])
 def post_acceleration_data():
     json = request.get_json()
