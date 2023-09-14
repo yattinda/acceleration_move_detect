@@ -8,6 +8,7 @@ flask = "==2.2.5"
 Werkzeug = "==2.2.3"
 gunicorn = "*"
 flask-cors = "*"
+pandas = "==1.5.3"
 
 [dev-packages]
 
